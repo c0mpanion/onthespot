@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		767A5339FF9792ECA603607F /* Pods_On_the_Spot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E3CBCEAE4B05BA11063B232 /* Pods_On_the_Spot.framework */; };
 		93069F441E72423600EA2811 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93069F431E72423600EA2811 /* AppDelegate.swift */; };
-		93069F461E72423600EA2811 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93069F451E72423600EA2811 /* ViewController.swift */; };
+		93069F461E72423600EA2811 /* LogoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93069F451E72423600EA2811 /* LogoViewController.swift */; };
 		93069F491E72423600EA2811 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93069F471E72423600EA2811 /* Main.storyboard */; };
 		93069F4B1E72423600EA2811 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93069F4A1E72423600EA2811 /* Assets.xcassets */; };
 		93069F4E1E72423600EA2811 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93069F4C1E72423600EA2811 /* LaunchScreen.storyboard */; };
+		937387B31E7273C900AB2345 /* on the spot logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 937387B21E7273C900AB2345 /* on the spot logo.png */; };
+		937387B51E735DD700AB2345 /* GameListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937387B41E735DD700AB2345 /* GameListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		327C2EFFF28BA3EA987BE83C /* Pods-On the Spot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-On the Spot.release.xcconfig"; path = "Pods/Target Support Files/Pods-On the Spot/Pods-On the Spot.release.xcconfig"; sourceTree = "<group>"; };
+		7E3CBCEAE4B05BA11063B232 /* Pods_On_the_Spot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_On_the_Spot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93069F401E72423600EA2811 /* On the Spot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "On the Spot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93069F431E72423600EA2811 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		93069F451E72423600EA2811 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		93069F451E72423600EA2811 /* LogoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoViewController.swift; sourceTree = "<group>"; };
 		93069F481E72423600EA2811 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93069F4A1E72423600EA2811 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93069F4D1E72423600EA2811 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93069F4F1E72423600EA2811 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		937387B21E7273C900AB2345 /* on the spot logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "on the spot logo.png"; sourceTree = "<group>"; };
+		937387B41E735DD700AB2345 /* GameListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameListViewController.swift; sourceTree = "<group>"; };
+		DE729F9B52FEB0C46CC0C730 /* Pods-On the Spot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-On the Spot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-On the Spot/Pods-On the Spot.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				767A5339FF9792ECA603607F /* Pods_On_the_Spot.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +49,8 @@
 			children = (
 				93069F421E72423600EA2811 /* On the Spot */,
 				93069F411E72423600EA2811 /* Products */,
+				C913DD215726419DCAF55429 /* Pods */,
+				E69BC348302947330B3F551C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +66,32 @@
 			isa = PBXGroup;
 			children = (
 				93069F431E72423600EA2811 /* AppDelegate.swift */,
-				93069F451E72423600EA2811 /* ViewController.swift */,
+				93069F451E72423600EA2811 /* LogoViewController.swift */,
+				937387B41E735DD700AB2345 /* GameListViewController.swift */,
 				93069F471E72423600EA2811 /* Main.storyboard */,
 				93069F4A1E72423600EA2811 /* Assets.xcassets */,
 				93069F4C1E72423600EA2811 /* LaunchScreen.storyboard */,
 				93069F4F1E72423600EA2811 /* Info.plist */,
+				937387B21E7273C900AB2345 /* on the spot logo.png */,
 			);
 			path = "On the Spot";
+			sourceTree = "<group>";
+		};
+		C913DD215726419DCAF55429 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE729F9B52FEB0C46CC0C730 /* Pods-On the Spot.debug.xcconfig */,
+				327C2EFFF28BA3EA987BE83C /* Pods-On the Spot.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E69BC348302947330B3F551C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E3CBCEAE4B05BA11063B232 /* Pods_On_the_Spot.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 93069F521E72423600EA2811 /* Build configuration list for PBXNativeTarget "On the Spot" */;
 			buildPhases = (
+				D47F51B313A168B706115DD7 /* [CP] Check Pods Manifest.lock */,
 				93069F3C1E72423500EA2811 /* Sources */,
 				93069F3D1E72423500EA2811 /* Frameworks */,
 				93069F3E1E72423500EA2811 /* Resources */,
+				0A5F63E6CE66485D6A62513A /* [CP] Embed Pods Frameworks */,
+				BD85FDF74FDD1FBDF99F384F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,6 +156,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				937387B31E7273C900AB2345 /* on the spot logo.png in Resources */,
 				93069F4E1E72423600EA2811 /* LaunchScreen.storyboard in Resources */,
 				93069F4B1E72423600EA2811 /* Assets.xcassets in Resources */,
 				93069F491E72423600EA2811 /* Main.storyboard in Resources */,
@@ -131,12 +165,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A5F63E6CE66485D6A62513A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-On the Spot/Pods-On the Spot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD85FDF74FDD1FBDF99F384F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-On the Spot/Pods-On the Spot-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D47F51B313A168B706115DD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		93069F3C1E72423500EA2811 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93069F461E72423600EA2811 /* ViewController.swift in Sources */,
+				93069F461E72423600EA2811 /* LogoViewController.swift in Sources */,
+				937387B51E735DD700AB2345 /* GameListViewController.swift in Sources */,
 				93069F441E72423600EA2811 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +339,7 @@
 		};
 		93069F531E72423600EA2811 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE729F9B52FEB0C46CC0C730 /* Pods-On the Spot.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "On the Spot/Info.plist";
@@ -268,6 +352,7 @@
 		};
 		93069F541E72423600EA2811 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 327C2EFFF28BA3EA987BE83C /* Pods-On the Spot.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "On the Spot/Info.plist";
@@ -297,6 +382,7 @@
 				93069F541E72423600EA2811 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
