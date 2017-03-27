@@ -1,14 +1,14 @@
 //
-//  GameListViewController.swift
+//  GameOneViewController.swift
 //  On the Spot
 //
-//  Created by Jasmine Skye Batten on 3/10/17.
+//  Created by Jasmine Skye Batten on 3/26/17.
 //  Copyright © 2017 Power of Play. All rights reserved.
 //
 
 import UIKit
 
-class GameListViewController: UIViewController {
+class GameOneViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
