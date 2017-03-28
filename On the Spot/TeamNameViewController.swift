@@ -30,7 +30,8 @@ class TeamNameViewController: UIViewController
         {
             if let gameVC = segue.destination as? GameOneViewController
             {
-                gameVC.name = teamOneTextField.text
+                gameVC.names.append(teamOneTextField.text)
+                gameVC.names.append(teamTwoTextField.text)
             }
         }
     }
