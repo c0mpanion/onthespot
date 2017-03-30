@@ -12,9 +12,16 @@ import UIKit
 
 class TeamNameViewController: UIViewController
 {
+    
+    //the two team name variables
+    
     @IBOutlet weak var teamOneTextField: UITextField!
     @IBOutlet weak var teamTwoTextField: UITextField!
     
+    //constants
+    var tgf = GameFunctions()
+    
+    //moves to GameOneViewController when button is pressed
     @IBAction func startPressed(_ sender: UIButton)
     {
         performSegue(withIdentifier: "gameOneSegue", sender: self)
@@ -25,13 +32,16 @@ class TeamNameViewController: UIViewController
         super.viewDidLoad()
     }
     
+    
+    //team names are moved to the next view controller through a GameOneViewController object
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "gameOneSegue"
         {
             if let gameVC = segue.destination as? GameOneViewController
             {
-                gameVC.names.append(teamOneTextField.text)
-                gameVC.names.append(teamTwoTextField.text)
+                tgf.names[0] = teamOneTextField.text
+                tgf.names[1] = teamTwoTextField.text
+                gameVC.gf = tgf //transfers names to GameOneViewController
             }
         }
     }
