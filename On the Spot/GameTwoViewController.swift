@@ -13,7 +13,15 @@ class GameTwoViewController: UIViewController
 {
     var gf2: GameFunctions! = nil
     var prompts: [String?] = []
-    
+    var seconds = 60
+    var timer = Timer()
+    var n = 0
+    var timeSinceSwitchMessageDisplayed = 0
+    var switches: [Int] = [Int(arc4random_uniform(16) + 40), Int(arc4random_uniform(16) + 25), Int(arc4random_uniform(16))]
+
+
+    @IBOutlet weak var switchLabel: UILabel!
+    @IBOutlet weak var timerLabel: UILabel!
     @IBOutlet weak var teamOnePointsLabel: UILabel!
     @IBOutlet weak var teamTwoPointsLabel: UILabel!
     @IBOutlet weak var promptsLabel: UILabel!
@@ -36,6 +44,35 @@ class GameTwoViewController: UIViewController
             break
         }
         performSegue(withIdentifier: "gameThreeSegue", sender: self)
+    }
+    
+    
+    @IBAction func timerStarted(_ sender: Any)
+    {
+        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(GameTwoViewController.counter), userInfo: nil, repeats: true)
+    }
+    
+    
+    func counter()
+    {
+       // if seconds == switches[n]
+       // {
+       //     n += 1
+       //     switchLabel.text = "Switch!"
+       //     timeSinceSwitchMessageDisplayed = 5
+       // }
+        
+        seconds -= 1
+        timerLabel.text = String(seconds)
+        
+       // if timeSinceSwitchMessageDisplayed != 0
+        //{
+       //     timeSinceSwitchMessageDisplayed -= 1
+       // }
+       // else
+       // {
+       //     switchLabel.text = ""
+       // }
     }
     
     override func viewDidLoad()
