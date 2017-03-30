@@ -13,11 +13,15 @@
 		93069F4B1E72423600EA2811 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93069F4A1E72423600EA2811 /* Assets.xcassets */; };
 		93069F4E1E72423600EA2811 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93069F4C1E72423600EA2811 /* LaunchScreen.storyboard */; };
 		937387B31E7273C900AB2345 /* on the spot logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 937387B21E7273C900AB2345 /* on the spot logo.png */; };
-		93965ECD1E8985E700DB0FAC /* OnTheSpot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 93965ECB1E8985E700DB0FAC /* OnTheSpot.xcdatamodeld */; };
 		9396814B1E88886A00881DBD /* TeamNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9396814A1E88886A00881DBD /* TeamNameViewController.swift */; };
 		9396814D1E88895300881DBD /* GameOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9396814C1E88895300881DBD /* GameOneViewController.swift */; };
 		93D52B261E899B6B004B8B2B /* CLQuestions.txt in Resources */ = {isa = PBXBuildFile; fileRef = 93D52B251E899B6B004B8B2B /* CLQuestions.txt */; };
 		93D52B281E899CF0004B8B2B /* CLAnswers.txt in Resources */ = {isa = PBXBuildFile; fileRef = 93D52B271E899CF0004B8B2B /* CLAnswers.txt */; };
+		93D9CA631E8C743A001881C0 /* GameTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D9CA621E8C743A001881C0 /* GameTwoViewController.swift */; };
+		93D9CA651E8C75FE001881C0 /* Game Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D9CA641E8C75FE001881C0 /* Game Functions.swift */; };
+		93D9CA6B1E8CBF0E001881C0 /* IPPrompts.txt in Resources */ = {isa = PBXBuildFile; fileRef = 93D9CA6A1E8CBF0E001881C0 /* IPPrompts.txt */; };
+		93D9CA6D1E8CBF13001881C0 /* SAIQuestions.txt in Resources */ = {isa = PBXBuildFile; fileRef = 93D9CA6C1E8CBF13001881C0 /* SAIQuestions.txt */; };
+		93D9CA6F1E8CD0D5001881C0 /* GameThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D9CA6E1E8CD0D5001881C0 /* GameThreeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,11 +33,15 @@
 		93069F4D1E72423600EA2811 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93069F4F1E72423600EA2811 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		937387B21E7273C900AB2345 /* on the spot logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "on the spot logo.png"; sourceTree = "<group>"; };
-		93965ECC1E8985E700DB0FAC /* OnTheSpot.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OnTheSpot.xcdatamodel; sourceTree = "<group>"; };
 		9396814A1E88886A00881DBD /* TeamNameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamNameViewController.swift; sourceTree = "<group>"; };
 		9396814C1E88895300881DBD /* GameOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOneViewController.swift; sourceTree = "<group>"; };
 		93D52B251E899B6B004B8B2B /* CLQuestions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CLQuestions.txt; sourceTree = "<group>"; };
 		93D52B271E899CF0004B8B2B /* CLAnswers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CLAnswers.txt; sourceTree = "<group>"; };
+		93D9CA621E8C743A001881C0 /* GameTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameTwoViewController.swift; sourceTree = "<group>"; };
+		93D9CA641E8C75FE001881C0 /* Game Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Game Functions.swift"; sourceTree = "<group>"; };
+		93D9CA6A1E8CBF0E001881C0 /* IPPrompts.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = IPPrompts.txt; sourceTree = "<group>"; };
+		93D9CA6C1E8CBF13001881C0 /* SAIQuestions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SAIQuestions.txt; sourceTree = "<group>"; };
+		93D9CA6E1E8CD0D5001881C0 /* GameThreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameThreeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,11 +75,13 @@
 			isa = PBXGroup;
 			children = (
 				93D52B241E899B51004B8B2B /* Resources */,
-				93965ECB1E8985E700DB0FAC /* OnTheSpot.xcdatamodeld */,
 				93069F431E72423600EA2811 /* AppDelegate.swift */,
 				93069F451E72423600EA2811 /* LogoViewController.swift */,
 				9396814A1E88886A00881DBD /* TeamNameViewController.swift */,
 				9396814C1E88895300881DBD /* GameOneViewController.swift */,
+				93D9CA621E8C743A001881C0 /* GameTwoViewController.swift */,
+				93D9CA6E1E8CD0D5001881C0 /* GameThreeViewController.swift */,
+				93D9CA641E8C75FE001881C0 /* Game Functions.swift */,
 				93069F471E72423600EA2811 /* Main.storyboard */,
 				93069F4A1E72423600EA2811 /* Assets.xcassets */,
 				93069F4C1E72423600EA2811 /* LaunchScreen.storyboard */,
@@ -86,6 +96,8 @@
 			children = (
 				93D52B251E899B6B004B8B2B /* CLQuestions.txt */,
 				93D52B271E899CF0004B8B2B /* CLAnswers.txt */,
+				93D9CA6A1E8CBF0E001881C0 /* IPPrompts.txt */,
+				93D9CA6C1E8CBF13001881C0 /* SAIQuestions.txt */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -153,7 +165,9 @@
 				937387B31E7273C900AB2345 /* on the spot logo.png in Resources */,
 				93069F4E1E72423600EA2811 /* LaunchScreen.storyboard in Resources */,
 				93069F4B1E72423600EA2811 /* Assets.xcassets in Resources */,
+				93D9CA6B1E8CBF0E001881C0 /* IPPrompts.txt in Resources */,
 				93069F491E72423600EA2811 /* Main.storyboard in Resources */,
+				93D9CA6D1E8CBF13001881C0 /* SAIQuestions.txt in Resources */,
 				93D52B281E899CF0004B8B2B /* CLAnswers.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,11 +179,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93965ECD1E8985E700DB0FAC /* OnTheSpot.xcdatamodeld in Sources */,
 				93069F461E72423600EA2811 /* LogoViewController.swift in Sources */,
+				93D9CA651E8C75FE001881C0 /* Game Functions.swift in Sources */,
 				9396814D1E88895300881DBD /* GameOneViewController.swift in Sources */,
 				9396814B1E88886A00881DBD /* TeamNameViewController.swift in Sources */,
 				93069F441E72423600EA2811 /* AppDelegate.swift in Sources */,
+				93D9CA631E8C743A001881C0 /* GameTwoViewController.swift in Sources */,
+				93D9CA6F1E8CD0D5001881C0 /* GameThreeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,19 +348,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		93965ECB1E8985E700DB0FAC /* OnTheSpot.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				93965ECC1E8985E700DB0FAC /* OnTheSpot.xcdatamodel */,
-			);
-			currentVersion = 93965ECC1E8985E700DB0FAC /* OnTheSpot.xcdatamodel */;
-			path = OnTheSpot.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 93069F381E72423500EA2811 /* Project object */;
 }

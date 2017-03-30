@@ -1,0 +1,70 @@
+(1) Chris Pratt (2) Montreal, Canada (3) Gangster Film
+(1) Andy Samberg (2) Middle of the Atlantic (3) Romantic Comedy
+(1) Stan Lee (2) Strip Club (3) Chick Flick
+(1) Terry Crews (2) Candy shop (3) Historical Period Drama
+(1) Natalie Portman (2) Aztec Temple (3) Heist Film
+(1) Samuel L. Jackson (2) International Space Station (3) Silent Film
+(1) Anne Hathaway (2) Abandoned Carnival (3) Film Noir
+(1) Steve Buscemi (2) Tijuana, Mexico (3) Western
+(1) Tom Cruise (2) Macy’s Thanksgiving Day Parade in NY(3) Horror Film
+(1) Chris Hemsworth (2) Burj Khalifa, Dubai (3) Spy Film
+(1) The Rock (2) Elderly Care Home (3) Cop Thriller
+(1) Your mother (2) A Meat Packing Facility (3) Soap Opera
+(1) A clown (2) A Physics Lab (3) Drama
+(1) Jesus Christ (2) The Cretaceous Period (3) Space Adventure
+(1) Ben Stiller (2) A Chinese Restaurant (3) Horror
+(1) Ron Jeremy (2) International Cruise (3) Romance
+(1) Cameron Diaz (2) Butte, Montana (3) Heist Film
+(1) Martin Luther King Jr. (2) Iraq (3) War Movie
+(1) Mike Tyson (2) A High School (3) Substitute Teacher Comedy
+(1) Matt Bomer (2) Bar (3) Spy Film
+(1) Meryl Streep (2) Middle of a river in the rainforest (3) Romance
+(1) Kate Winslet (2) 13th floor of the empire state building (3) Comedy
+(1) Jennifer Lawrence (2) Lincoln, Nebraska (3) Action/thriller
+(1) Audrey Hepburn (2) custom coffin shop (3) War
+(1) Julia Roberts (2) Your pool (3) Thriller
+(1) Johnny Depp (2) Suitcase on an airplane (3) Sci-Fi
+(1) Will Smith (2) Middle of space (3) Musical
+(1) Leonardo DiCaprio (2) Top of the Egyptian pyramids (3) Documentary
+(1) Harrison Ford (2) High school biology class (3) History film
+(1) Tom Hanks (2) Driving through the desert (3) Fantasy
+(1) Hitler (2) Brazil (3) Comedy
+(1) Anne Frank (2) Auschwitz (3) Horror
+(1) Adam Sandler (2) Auschwitz (3) Comedy
+(1) Adam Sandler (2) A Catholic church (3) Horror
+(1) Adam Sandler (2) The moon (3)  Drama
+(1) Adam Sandler (2) Under the sea (3) Comedy
+(1) Julius Caesar (2) Living past his assassination in Rome (3) Drama
+(1) Sherlock Holmes (2) Investigating the rigged elections of America because the Russians were apparently involved (3)  Drama/mystery
+(1) Harry Potter London (2) Facing family abuse because he’s a normal child and not a wizard (3) Comedy
+(1) Mario (2) a woman’s house to fix her “toilet” (3) Romance
+(1) Viola Davis (2) Outer Space (3) Comedy
+(1) Hugh Grant (2) Antarctica (3) Thriller
+(1) Winona Ryder (2)1850s Spain (3) Historical Drama
+(1) Jessica Biel (2) Trapped in someone’s basement (3) Comedy
+(1) Jack Nicholson (2) Chik fil-a (3) Sci-Fi
+(1) Danny Devito (2) In a gym for gymnastics (3) Musical
+(1) John Candy (2) a desk job (3) Documentary
+(1) Matthew Goode (2) Dandy Bear (3) Thriller
+(1) Wanda Sykes (2) 1930s New York (3) Action Drama
+(1) Bruce Willis (2) Pet shop (3) Comedy
+(1) Ben Affleck (2) Lazarus Pit (3) Romantic Comedy
+(1) Nicholas Cage (2) Bird Store (3) Comedy
+(1) Tim Allen (2) Volcano (3) Musical
+(1) Leonardo DiCaprio (2) Disneyworld (3) Romantic Horror
+(1) Seth Rogen (2) Madagascar (3) Horror
+(1) Jason Statham (2) Starbucks (3) Action
+(1) Morgan Freeman (2) X-mens Mansion (3) Mystery
+(1) Ryan Reynolds (2) Hell’s Kitchen (3) Comedy
+(1) Danny Devito (2) China Buffet (3) Action
+(1) Johnny Depp (2) Mall (3) Fantasy
+(1) Fat Amy (2) Africa (3) Science Fiction
+(1) Kate Gosselin (2) India (3) Bollywood
+(1) Shaq (2) Ireland (3) Comedy
+(1) Paul Walker (2) California (3) Mystery
+(1) Justin Bieber (2) Elm’s Street  (3) Crime Action
+(1) Amanda Bines (2) Madagascar (3) Action
+(1) Hulk Holgan (2) Antarctica (3) Musical
+(1) Chuck Norris (2) Iraq (3) Thriller
+(1) Hugh Hefner (2) Dubai (3) Action
+(1) Jennifer Lawrence (2) Canada (3) Romantic Comedy

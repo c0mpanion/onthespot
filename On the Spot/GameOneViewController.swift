@@ -11,13 +11,12 @@ import UIKit
 
 class GameOneViewController: UIViewController
 {
-    
-    var teamOnePoints: Int = 0
-    var teamTwoPoints: Int = 0
-    var names: [String?] = []
+    //variables
     var prompts: [String?] = []
     var answers: [String?] = []
+    var gf: GameFunctions! = nil
     
+    //labels
     @IBOutlet weak var teamOnePointsLabel: UILabel!
     @IBOutlet weak var teamTwoPointsLabel: UILabel!
     @IBOutlet weak var promptsLabel: UILabel!
@@ -25,53 +24,59 @@ class GameOneViewController: UIViewController
     @IBOutlet weak var teamOneLabel: UIButton!
     @IBOutlet weak var teamTwoLabel: UIButton!
     
-    @IBAction func teamOneButton(_ sender: Any)
-    {
-        teamOnePoints += 10
-        teamOnePointsLabel.text = String(teamOnePoints)
-    }
     
-    @IBAction func teamTwoButton(_ sender: Any)
-    {
-        teamTwoPoints += 10
-        teamTwoPointsLabel.text = String(teamTwoPoints)
-    }
+    //adds 10 points to team one's point counter if judge picks team one
     
-    
-    func arrayFromContentsOfFile(fileName: String) -> [String]?
+    @IBAction func teamChosen(_sender: Any)
     {
-        guard let path = Bundle.main.path(forResource: fileName, ofType: "txt") else
+        guard let button = _sender as? UIButton else
         {
-            return nil
+            return
         }
-        
-        do
+        switch button.tag
         {
-            let content = try String(contentsOfFile: path, encoding: String.Encoding.utf8)
-            return content.components(separatedBy: "\n")
+        case 0:
+            gf.addPoints(team: 0, numberOfPoints: 10)
+        case 1:
+            gf.addPoints(team: 1, numberOfPoints: 10)
+        default:
+            break
         }
-        catch
-        {
-            return nil
-        }
+        performSegue(withIdentifier: "gameTwoSegue", sender: self)
     }
     
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        teamOneLabel.setTitle(names[0], for: .normal)
-        teamTwoLabel.setTitle(names[1], for: .normal)
+        
+        //set labels
+        teamOneLabel.setTitle(gf.names[0], for: .normal)
+        teamTwoLabel.setTitle(gf.names[1], for: .normal)
         teamOneLabel.sizeToFit()
         teamTwoLabel.sizeToFit()
-        prompts = arrayFromContentsOfFile(fileName: "CLQuestions")!
-        answers = arrayFromContentsOfFile(fileName: "CLAnswers")!
-        let promptRandom = Int(arc4random_uniform(UInt32(prompts.count)))
-        promptsLabel.text = prompts[promptRandom]
-        answersLabel.text = answers[promptRandom]
+        
+        
+        //randomize prompts for specified files
+        prompts = gf.arrayFromText(fileName: "CLQuestions")!
+        answers = gf.arrayFromText(fileName: "CLAnswers")!
+        
+        let random = Int(arc4random_uniform(UInt32(prompts.count)))
+        promptsLabel.text = gf.randomPrompt(arrayOfText: prompts, randomNumber: random)
+        answersLabel.text = gf.randomPrompt(arrayOfText: answers, randomNumber: random)
+        
+        //UI touch up
         promptsLabel.sizeToFit()
         answersLabel.sizeToFit()
     }
     
-    
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        if segue.identifier == "gameTwoSegue"
+        {
+            if let game2VC = segue.destination as? GameTwoViewController
+            {
+                game2VC.gf2 = gf //transfers data to GameTwoViewController
+            }
+        }
+    }
 }
